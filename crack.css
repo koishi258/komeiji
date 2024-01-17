@@ -1,0 +1,81 @@
+@charset "utf-8";
+#center1{
+    border: 1px solid white;
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;  /* 高度调整 */
+    margin-right: auto;
+    margin-left: auto;  
+    background: #00000080;
+    padding: 20px 50px;
+    /* 将按钮的左右边框设置为圆弧 */
+    border-radius: 40px;
+    /* 圆角弧度24px */
+    transition: 0.5s;
+    margin-bottom: auto;
+}
+
+#center1 h1 {
+    color: white;
+}
+
+#center1 a {
+    color:white;  
+}
+#center1 a:hover {
+    color: #929DF8;
+}
+
+table {
+        
+        /* 设置表格边框 */
+        border: 2px solid white;
+ 		background-color: hsla(60,1%,29%,0.39);
+		border-collapse:collapse;
+    }
+
+
+    /* 设置表头 */
+    th {
+    height: 45px;
+    border: 2px dashed white;
+    /* 字体居中对齐 */
+    text-align: center;
+    }
+ 
+  
+ 
+    /* 设置表格中每一个单元格 */
+    td {
+    height: 45px;
+    border: 2px dashed white;
+    /* 字体水平居中 */
+    text-align: center;
+    }
+
+    .seniment button {
+        /* 设置合适的按钮的长和宽 */
+        width: 150px; 
+        /* height: 30px; */
+        text-transform: uppercase;
+        border: 3px solid #FFFFFF; /* 设置按钮的边界粗细和颜色 */
+        margin-top: 18px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+        text-align: center;
+        font-size: 18px; /* 修改按钮文字的大小 */
+        /* 设置按钮里面字体颜色 */
+        color: #FFFFFF;
+        line-height: 50px;
+        border-radius: 30px; /* 将按钮的左右边框设置为圆弧 */
+        cursor: pointer;
+        /* 圆角弧度24px */
+        transition:0.2s;
+        /* 设置按钮背景为透明 */
+        background:hsla(60,1%,29%,0.39);   
+    }
+    
+
+body {
+    background: url("../photo/background.jpg") center; /* 首先增加背景图 */
+    background-size: 100% auto; /* 设置背景的大小 */
+    background-repeat: repeat-y; /* 将背景设置为不重复显示 */
+}

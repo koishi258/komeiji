@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+#center{
+    border: 1px solid white;
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;  /* 高度调整 */
+    margin-right: auto;
+    margin-left: auto;  
+    background: #00000080;
+    padding: 20px 50px;
+    /* 将按钮的左右边框设置为圆弧 */
+    border-radius: 40px;
+    /* 圆角弧度24px */
+    transition: 0.5s;
+    margin-bottom: auto;
+}
+
+
+#center h1 {
+    color: white;
+}
+
+#analyse {
+    border: 1px solid white;
+    /* [disabled]width: 70%; */
+    text-align: center;
+    margin-top: 10%;  /* 高度调整 */
+    margin-right: 20%;
+    margin-left: 20%;
+    background: #00000080;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    /* 将按钮的左右边框设置为圆弧 */
+    border-radius: 20px;
+    /* 圆角弧度24px */
+    transition: 0.5s;
+    margin-bottom: auto;
+}
+#analyse h3 {
+    color: white;
+}
+#analyse p {
+    color: white;
+}
+
+/* 设置表格 */
+    table {
+        
+        /* 设置表格边框 */
+        border: 2px solid white;
+ 		background-color: hsla(60,1%,29%,0.39);
+		border-collapse:collapse;
+    }
+
+
+    /* 设置表头 */
+    th {
+    height: 45px;
+    border: 2px dashed white;
+    /* 字体居中对齐 */
+    text-align: center;
+    }
+ 
+  
+ 
+    /* 设置表格中每一个单元格 */
+    td {
+    height: 45px;
+    border: 2px dashed white;
+    /* 字体水平居中 */
+    text-align: center;
+    }
+ 
+    
+
+body {
+    background: url("../photo/background.jpg") center; /* 首先增加背景图 */
+    background-size: 100% auto; /* 设置背景的大小 */
+    background-repeat: repeat-y; /* 将背景设置为不重复显示 */
+}
+ a {
+    color:white;  
+}
+ a:hover {
+    color: #929DF8;
+}
